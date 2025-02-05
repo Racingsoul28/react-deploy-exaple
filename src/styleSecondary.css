@@ -1,0 +1,76 @@
+/*Generales*/
+.bacColor{
+    /*background-color: #252525;*/
+    background: linear-gradient(to right, #252525, #252525, #202020);      
+}
+
+h1{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titleBox{
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px #f8f8f8;
+    margin: 15px;
+    background-color: #1a001a;
+}
+
+/*Tarjeta*/
+.cardTitle{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
+    color: #f8f8f8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardBg{
+    background-color: #1a001a;
+    border-color: #f8f8f8;
+    margin-top: 10px;
+}
+
+.cardBg:hover{
+    transform: scale(1.1);
+}
+
+.itemsList{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
+    color: #e9e9e9;
+    text-align: justify;
+}
+
+.cardCenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardImgSmall{
+    height: 50px;
+    width: auto;
+    display: flex;
+    margin: auto;
+
+}
+
+.spacingTopSmall{
+    margin-top: 15px;
+}
+
+footer{
+    color: #e9e9e9;
+}
+
+.imgIconv1{
+    height: 25px;
+}
