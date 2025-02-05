@@ -1,0 +1,140 @@
+<!--
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="stylesheet" crossorigin href="/react-deploy-exaple/assets/index-BSawld4g.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, initial-scale=1.0" />
+    <title>Instalar Bootstrap</title>
+
+    <!--Está linkeado a bootstrap-->
+  </head>
+  <body class="bacColor">
+    <div class="container-fluid">
+      <!--Titulo-->
+      <div class="row titleBox">
+        <div class="col-12">
+          <h1 class="text-center titlPrincipal">
+            ¿Cómo instalar Bootstrap mediante NPM de manera local?
+          </h1>
+        </div>
+      </div>
+      <!--CIERE: Titulo-->
+      <!--Lista de Pasos-->
+      <div class="row -itemsList">
+        <!--Tarjeta-->
+        <div
+          class="card cardBg col-12 col-md-6 col-xl-4 cardCenter"
+          style="width: 22rem"
+        >
+          <div class="card-body">
+            <img
+              src="/react-deploy-exaple/assets/vsCode-BSTMwcMs.png"
+              class="card-img-top cardImgSmall"
+              alt="vscode.png"
+            />
+            <h5 class="card-title cardTitle">Paso 1</h5>
+            <p class="card-text itemsList">
+              Abrir Visual Studio Code para inicializar un proyecto.<br />
+              Abrir la terminal del VSCode y ejecutar "<span class="text-info">npm init -y</span>".<br />
+              Ejecutar "<span class="text-info">npm install bootstrap@5.3.3</span>" en la consola.
+            </p>
+          </div>
+        </div>
+        <!--Tarjeta-->
+        <div
+          class="card cardBg col-12 col-md-6 col-xl-4 cardCenter"
+          style="width: 22rem"
+        >
+          <div class="card-body">
+            <img
+              src="/react-deploy-exaple/assets/html-5-D36f7mSW.png"
+              class="card-img-top cardImgSmall"
+              alt="vscode.png"
+            />
+            <h5 class="card-title cardTitle">Paso 2</h5>
+            <p class="card-text itemsList">
+              Creamos el "index.html" en la carpeta ra&iacute;z del proyecto.<br>
+              Creamos un archivo llamado "styles.scss".<br>
+              Dentro del archivo copiamos <span class="text-info">@import "node_modules/bootstrap/scss/bootstrap.scss"</span>.
+            </p>
+          </div>
+        </div>
+        <!--Tarjeta-->
+        <div
+          class="card cardBg col-12 col-md-6 col-xl-4 cardCenter"
+          style="width: 22rem"
+        >
+          <div class="card-body">
+            <h5 class="card-title cardTitle">Paso 3</h5>
+            <p class="card-text itemsList">
+              Prepararemos el CSS, para ello instalar la extensi&oacute;n "<span class="text-info">Live Sass Compiler</span>".<br>
+              En la parte inferior derecha encontraremos un b&oacute;ton "<span class="text-info">Watch Sass</span>", damos click en &eacute;l.<br>
+              Volvemos al archivo <span class="text-info">style.scss</span>, hacemos cualquier cambio y guardamos el archivo (eso compilará el archivo).
+            </p>
+          </div>
+        </div>
+        <!--Tarjeta-->
+        <div
+          class="card cardBg col-12 col-md-6 col-xl-4 cardCenter"
+          style="width: 22rem"
+        >
+          <div class="card-body">
+            <h5 class="card-title cardTitle">Paso 4</h5>
+            <p class="card-text itemsList">
+                Volvemos al "<span class="text-info">index.html</span>".<br>
+                V&iacute;nculamos la hója de estilo creada con: <br>"<span class="text-info">link rel="stylesheet" href="style.css"</span>", en el head.<br>
+                V&iacute;nculamos la hoja de scrips con: <br>"<span class="text-info">script src="node_modules/bootstrap/dist/js/bootstrap.min.js"</script></span>", al final del body.
+            </p>
+          </div>
+        </div>
+        <!--CIERRE: Lista de Pasos-->
+
+        <div class="row">
+          <div class="col-12 text-center spacingTopSmall">
+            <div class="spinner-grow text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+      <footer class="bg-dark text-white fixed-bottom">
+        <div class="text-center">
+          <p>
+            Creditos a:
+            <a
+              class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              href="https://www.youtube.com/watch?v=kANNWN_--UA"
+              target="_blank"
+              >Kiko Palomares
+              <img
+                src="/react-deploy-exaple/assets/youtube-SsrGC1K8.png"
+                alt="youtube.png"
+                class="imgIconv1"
+            /></a>
+          </p>
+        </div>
+      </footer>
+      <!--CIERRE: Footer-->
+
+      <!--CIERRE: div container-->
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
